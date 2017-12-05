@@ -2,12 +2,6 @@
 "GameMenu" [$WIN32]
 {	
 // Main Buttons
-	"CasualButton"
-	{
-		"label" 		"Start Playing" 
-		"command" 		"play_casual"
-		"subimage" 		"replay/thumbnails/glyph_server"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers"
@@ -18,18 +12,6 @@
 	{
 		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
-	}
-	"CompetitiveButton"
-    {
-        "label" 	"Competitive"
-        "command"   "play_competitive"
-		"subimage"			"glyph_practice"
-    }
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "play_mvm"
-		"subimage" "replay/thumbnails/glyph_coop"
 	}
 	"DemouiButton"
 	{
