@@ -284,12 +284,12 @@
 		{
 			"zpos"				"5"
 			"xpos"				"c-110"
-			"ypos"				"-26"
+			"ypos"				"-27"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Garm3nFontMediumShadow"
 			"font_lodef"	"Garm3nFontMediumShadow"
@@ -301,13 +301,13 @@
 			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"Garm3nFontSmaller"
-				"textAlignment"		"center"
+				"font"			"Garm3nFontSmallest"
+				"textAlignment"	"center"
 			}
 		}	
 	}

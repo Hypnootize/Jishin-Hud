@@ -983,8 +983,8 @@
 		"wide"	"f0"
 		"tall"	"480"
 		
-		"blue_active_xpos"			"305"
-		"red_active_xpos"			"395"
+		"blue_active_xpos"			"333"
+		"red_active_xpos"			"464"
 
 	}	
 
