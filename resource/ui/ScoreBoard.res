@@ -71,8 +71,7 @@
 		
 		if_mvm
 		{
-			"xpos"			"100"
-			"wide"			"560"
+			"visible"		"0"
 		}
 	}
 	"BluBG"
@@ -88,6 +87,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"10 40 165 255"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedBG"
 	{
@@ -102,6 +106,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"190 25 25 255"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"MainBG"
 	{
@@ -117,6 +126,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"30 30 30 205"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamLabel"
 	{
@@ -318,6 +332,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"ServerTimeLeft"
 	{
@@ -335,6 +354,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"BluePlayerList"
 	{
@@ -459,6 +483,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"OmpMediumBG"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"ClassImage"
 	{
@@ -476,7 +505,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -499,7 +528,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}							
 	"HorizontalLine"
@@ -523,7 +552,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -779,7 +808,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"wide"		"0"
 		}
 
 		"KillsLabel"
@@ -1522,8 +1551,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-350"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"

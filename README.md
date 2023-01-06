@@ -1,12 +1,7 @@
 # Jishin-Hud
-Screenshots: https://imgur.com/a/hlCAv
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+**[SCREENSHOTS ALBUM](https://imgur.com/a/hlCAv)** 
 
-Original Damage Color:
+**[INSTALLATION](https://imgur.com/a/w3Ah6)**
 
-hud_combattext_red 227
-
-hud_combattext_green 227
-
-hud_combattext_blue 227
+![](https://i.imgur.com/c4TdO8m.jpg)

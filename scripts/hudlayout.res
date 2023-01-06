@@ -63,23 +63,6 @@
 		"scaleImage"	"1"
 	}
 
-	"test"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"test"
-		"xpos"	 "c-19"
-		"ypos"	 "c-19"
-		"zpos"	 "30"
-		"wide"	 "50"
-		"tall"	 "50"
-		"alpha"			"255"
-		"visible"		"0"
-		"enabled"		"0"
-		"visible_minmode"	"0"
-		"enabled_minmode"	"0"
-		"image"			"replay/thumbnails/test"
-		"scaleImage"	"1"
-	}
 	"kent"
 	{
 		"ControlName"	"ImagePanel"
@@ -1184,13 +1167,25 @@
 		"fieldName" "HudMannVsMachineStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-20"
+		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-398"
+		"ypos"				"r110"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 	
 	HudProgressBar
